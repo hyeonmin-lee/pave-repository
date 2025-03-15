@@ -1,0 +1,779 @@
+[
+	{
+        "name": "native_client",
+        "url": "",
+        "download_path": "./"
+    },
+    {
+        "name": "",
+        "format": "tar.xz",
+        "url": "https://commondatastorage.googleapis.com/chrome-linux-sysroot/toolchain/cb4fa34f1faddafb72cace35faf62a611f2ca7c9/debian_bullseye_amd64_sysroot.tar.xz",
+        "install_path": [
+        	"build/linux/debian_bullseye_amd64-sysroot/"
+		]
+    },
+    {
+        "name": "",
+        "format": "tar.xz",
+        "url": "https://commondatastorage.googleapis.com/chrome-linux-sysroot/toolchain/07bb72368889fea19a1f123aa11528f0d792121b/debian_bullseye_i386_sysroot.tar.xz",
+        "install_path": [
+        	"build/linux/debian_bullseye_i386-sysroot/"
+		]
+    },
+    {
+        "name": "",
+        "format": "tar.xz",
+        "url": "https://commondatastorage.googleapis.com/chromium-browser-clang/Linux_x64/clang-llvmorg-16-init-907-g8b740747-3.tar.xz",
+        "install_path": [
+        	"third_party/llvm-build/Release+Asserts/"
+		]
+    },
+    {
+        "name": "clang-format",
+        "url": "https://storage.googleapis.com/chromium-clang-format/31fce369a66eb7d43259d9222e5eb84918495afe",
+        "download_path": "buildtools/linux64/"
+    },
+    {
+        "name": "emulator_arm_trusted_precise.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-archive2/toolchain/4/emulator_arm_trusted_precise.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/arm_trusted/"
+        ]
+    },
+    {
+        "name": "binutils_arm_x86_64_linux.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/binutils_arm_x86_64_linux_475b45f35de7eb128a94a1ff45c84700ce39498b.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/nacl_arm_glibc/",
+            "native_client/toolchain/linux_x86/nacl_arm_glibc_raw/"
+        ]
+    },
+    {
+        "name": "gcc_arm_x86_64_linux.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/gcc_arm_x86_64_linux_a3129445edd74ax320d1f3180707fe37548bba113.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/nacl_arm_glibc/",
+            "native_client/toolchain/linux_x86/nacl_arm_glibc_raw/"
+        ]
+    },
+    {
+        "name": "gcc_libs_arm.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/gcc_libs_arm_f03817560852cd9d4b167200c5b678a1387d40b3.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/nacl_arm_glibc/",
+            "native_client/toolchain/linux_x86/nacl_arm_glibc_raw/"
+        ]
+    },
+    {
+        "name": "gdb_x86_64_linux.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/gdb_x86_64_linux_eb6c41556c51e4d14949223034cca4a6105feafb.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/nacl_arm_glibc/",
+            "native_client/toolchain/linux_x86/nacl_arm_glibc_raw/"
+        ]
+    },
+    {
+        "name": "glibc_arm.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/glibc_arm_74e7605b6d972a8f3093b355d9e17228d514fbe8.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/nacl_arm_glibc/",
+            "native_client/toolchain/linux_x86/nacl_arm_glibc_raw/"
+        ]
+    },
+    {
+        "name": "sdk_libs_arm.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/sdk_libs_arm_4cf193c816d4bdb6323a5488175d1a84c73a0e29.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/nacl_arm_glibc/"
+        ]
+    },
+    {
+        "name": "core_sdk.tar.bz2",
+        "format": "bz2",
+        "url": "https://storage.googleapis.com/nativeclient-archive2/x86_toolchain/r9ff1dc0c05b45941b86bed303a87a9eac17192ea/core_sdk_linux_x86.tar.bz2",
+        "install_path": [
+            "native_client/toolchain/linux_x86/nacl_x86_glibc/"
+        ]
+    },
+    {
+        "name": "gdb_i686_linux.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/gdb_i686_linux_6d01cc5aef9f2dbc90f5ff615088809d05beee9e.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/nacl_x86_glibc/",
+            "native_client/toolchain/linux_x86/nacl_x86_glibc_raw/"
+        ]
+    },
+    {
+        "name": "toolchain.tar.bz2",
+        "format": "bz2",
+        "url": "https://storage.googleapis.com/nativeclient-archive2/x86_toolchain/r9ff1dc0c05b45941b86bed303a87a9eac17192ea/toolchain_linux_x86.tar.bz2",
+        "install_path": [
+            "native_client/toolchain/linux_x86/nacl_x86_glibc/",
+            "native_client/toolchain/linux_x86/nacl_x86_glibc_raw/"
+        ]
+    },
+    {
+        "name": "core_sdk.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-archive2/toolchain/11953a35fcd4f999b097a343bc49d89f94af21a8/core_sdk_linux_x86.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/nacl_x86_newlib/"
+        ]
+    },
+    {
+        "name": "gdb_i686_linux.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/gdb_i686_linux_a9a003c04d06a2ee9f3fbb6223ee31510543bb72.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/nacl_x86_newlib/",
+            "native_client/toolchain/linux_x86/nacl_x86_newlib_raw/"
+        ]
+    },
+    {
+        "name": "naclsdk.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-archive2/toolchain/11953a35fcd4f999b097a343bc49d89f94af21a8/naclsdk_linux_x86.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/nacl_x86_newlib/",
+            "native_client/toolchain/linux_x86/nacl_x86_newlib_raw/"
+        ]
+    },
+    {
+        "name": "binutils_x86_64_linux.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/binutils_x86_64_linux_21fb83960ec07f8fa35cfb810ff690a2682b4ffa.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "binutils_x86_x86_64_linux.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/binutils_x86_x86_64_linux_42a61cb3e6f326d7bfb5fd12980fc8cf1419cfd5.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "compiler_rt_bc_arm_bc.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/compiler_rt_bc_arm_bc_2154c5abd48a96e210dcb1251b54ce46199956b3.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "compiler_rt_bc_i686_bc.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/compiler_rt_bc_i686_bc_8af8aa84c3756646337daea232d844ae15d61031.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "compiler_rt_bc_le32.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/compiler_rt_bc_le32_f26999c96d88d08b268cc54d064960019aec9548.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "compiler_rt_bc_x86_64_bc.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/compiler_rt_bc_x86_64_bc_2d4ac4e63a99ea5e85d1e483271654f918aa07e3.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "core_sdk_libs_arm.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/core_sdk_libs_arm_ae2e21585133daf61822a87c614fa044ebf34e1b.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/"
+        ]
+    },
+    {
+        "name": "core_sdk_libs_i686.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/core_sdk_libs_i686_2290e0ec2028784f21b8a141326d0e2e5d11d84b.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/"
+        ]
+    },
+    {
+        "name": "core_sdk_libs_le32.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/core_sdk_libs_le32_ab8496991f8aed08b047a89246984e183f8eb11f.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/"
+        ]
+    },
+    {
+        "name": "core_sdk_libs_mipsel.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/core_sdk_libs_mipsel_463e52793a21eda8321e95a344789290d2b2dde1.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/"
+        ]
+    },
+    {
+        "name": "core_sdk_libs_x86_64.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/core_sdk_libs_x86_64_b8f73472b2c0ad186273582b11cc66fb69c17262.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/"
+        ]
+    },
+    {
+        "name": "driver_x86_64_linux.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/driver_x86_64_linux_f7e87e922af27e29b526da78d8830b9a2d97f9ce.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "libcxx_arm.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/libcxx_arm_a140c76951e9202407cfc8583b34ce73fb6b3a92.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "libcxx_arm_bc.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/libcxx_arm_bc_5c7fe1d09b5194987432ca3fa85defdedc248437.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "libcxx_i686.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/libcxx_i686_50e4b720dc3ac001d2adfbe4f6906e2364d79c4e.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "libcxx_i686_bc.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/libcxx_i686_bc_8cca04b8b31be65994b0a890978bceb41efb3a2e.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "libcxx_le32.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/libcxx_le32_852ea362e8540296ff16c81868f28513be88015e.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "libcxx_mipsel.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/libcxx_mipsel_0f817fa2a1d6a32a21d2969078421cd7f5ed65d3.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "libcxx_x86_64.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/libcxx_x86_64_c6b514c0c132d24d13f06ea95f2bb21cf7129918.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "libcxx_x86_64_bc.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/libcxx_x86_64_bc_5446de22e8bd918343a85a7abf445986f3083265.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "libgcc_eh_arm.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/libgcc_eh_arm_d3788aae6af91f4ee8467c0062b6e6f37ecf005e.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "libgcc_eh_mips32.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/libgcc_eh_mips32_7600059c14059a7d128290c9b94760eeb6cee9a5.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "libgcc_eh_x86_32.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/libgcc_eh_x86_32_e1ee4572eb8a5ef9bc99a4953a5e4fb71a55a96e.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "libgcc_eh_x86_64.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/libgcc_eh_x86_64_4e3d7b66c2840876b86c7e162169d118a5717ed5.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "libs_support_arm.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/libs_support_arm_ddaa28c7790210e9e7dba9e79ab114100de05a06.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "libs_support_arm_bc.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/libs_support_arm_bc_80db98fd1960bf8b3a1fb1c4cef5e2b1a8727d05.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "libs_support_i686.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/libs_support_i686_14d52879414c70437ebb24c1419eef7de3005643.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "libs_support_i686_bc.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/libs_support_i686_bc_6946e2bd42ddf987822805e937358ff4647e483c.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "libs_support_le32.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/libs_support_le32_ceea8ecd560dbb110a0aba1d95eaff3a33f45669.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "libs_support_mipsel.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/libs_support_mipsel_39c09b1e47b9e9c4540c290640820c2e216d7eed.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "libs_support_translator_arm.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/libs_support_translator_arm_c51068f462f0224377e9d1175a4c08c5e61ad6e6.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "libs_support_translator_arm_nonsfi.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/libs_support_translator_arm_nonsfi_27e508a942c080d80f899dc81214a25905affa3a.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "libs_support_translator_mips32.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/libs_support_translator_mips32_d273610424052e812a20925e18e31eddbe90d548.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "libs_support_translator_x86_32.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/libs_support_translator_x86_32_6288ba1895673aa3492da4d35dced8b7129af41e.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "libs_support_translator_x86_32_nonsfi.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/libs_support_translator_x86_32_nonsfi_3e506a9b5f172d21e0d1acfc9f95720931aa014a.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "libs_support_translator_x86_64.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/libs_support_translator_x86_64_602220984b8c5316c3989a1b1b3c7845f6093838.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "libs_support_x86_64.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/libs_support_x86_64_5c3524b6e122495dd436507b21aa4aef558cc78c.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "libs_support_x86_64_bc.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/libs_support_x86_64_bc_9db9826b929dbec1e50dfea2f81c11a0480861ea.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "llvm_x86_64_linux.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/llvm_x86_64_linux_26016f8dbf886e84d4e559bfb3f959fdfd353940.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "metadata.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/metadata_3998d97e97bd88e4e36a45bded50be02f55d7cb2.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "newlib_arm.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/newlib_arm_63c31d3ecdd87a82751c8901b69a307a37bd7277.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "newlib_arm_bc.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/newlib_arm_bc_d642cf361dd74df1114d0261518a5b1579566715.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "newlib_i686.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/newlib_i686_78a84fc7f656efb4f09b1dc6186eedd76474f55f.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "newlib_i686_bc.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/newlib_i686_bc_c44fa9ee75eabc5944772fdda4df6a987f348bee.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "newlib_le32.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/newlib_le32_4d9df2037c180a5aebce577d7e666b8e1bede780.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "newlib_mipsel.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/newlib_mipsel_6613828cd8b9da565c26a9388ef63a18cf2c0681.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "newlib_x86_64.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/newlib_x86_64_358ba1500dad548cc43b2d4a7f0f6139c9fd618f.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "newlib_x86_64_bc.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/newlib_x86_64_bc_3b15e4af56b8590734834b84b6f5474baf696211.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "unsandboxed_runtime_arm_linux.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/unsandboxed_runtime_arm_linux_443f3953adbd3337ac9cd2867c91b8642429c453.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "unsandboxed_runtime_x86_32_linux.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/unsandboxed_runtime_x86_32_linux_44213b91145bd786c84b71ee387d85ccd9c89b06.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "unsandboxed_runtime_x86_64_linux.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/unsandboxed_runtime_x86_64_linux_65a4c091955d73397607ba13432ead28a9c4af2d.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_newlib/",
+            "native_client/toolchain/linux_x86/pnacl_newlib_raw/"
+        ]
+    },
+    {
+        "name": "sandboxed_translators.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/sandboxed_translators_14802f65faa7047e8150b9208e5b62b744ff54eb.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/pnacl_translator/"
+        ]
+    },
+    {
+        "name": "binutils_x86_64_linux.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/binutils_x86_64_linux_678bfa572286e60b258503dff5933b210c18c01f.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/saigo_newlib/",
+            "native_client/toolchain/linux_x86/saigo_newlib_raw/"
+        ]
+    },
+    {
+        "name": "binutils_x86_x86_64_linux.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/binutils_x86_x86_64_linux_0fcc27e76ec31a8e346ec5edb1e1b1fe84f44ff9.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/saigo_newlib/",
+            "native_client/toolchain/linux_x86/saigo_newlib_raw/"
+        ]
+    },
+    {
+        "name": "core_sdk_libs_saigo_arm.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/core_sdk_libs_saigo_arm_20c6552cf077f00e16f904b55ef97f7aa7296b10.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/saigo_newlib/"
+        ]
+    },
+    {
+        "name": "core_sdk_libs_saigo_i686.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/core_sdk_libs_saigo_i686_4fbf5dddc22872b0e3e9a370ceebc81d8cffaec2.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/saigo_newlib/"
+        ]
+    },
+    {
+        "name": "core_sdk_libs_saigo_x86_64.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/core_sdk_libs_saigo_x86_64_38256359017bd5fad32242da1c537d0f863286fe.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/saigo_newlib/"
+        ]
+    },
+    {
+        "name": "libcxx_saigo_arm.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/libcxx_saigo_arm_3fbf8818c6911c8374dc9e38dedc9aaa35538edb.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/saigo_newlib/",
+            "native_client/toolchain/linux_x86/saigo_newlib_raw/"
+        ]
+    },
+    {
+        "name": "libcxx_saigo_i686.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/libcxx_saigo_i686_bca0349b1ff54ad522a0176db6b4cbeb06d726c2.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/saigo_newlib/",
+            "native_client/toolchain/linux_x86/saigo_newlib_raw/"
+        ]
+    },
+    {
+        "name": "libcxx_saigo_x86_64.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/libcxx_saigo_x86_64_2c15c895cd5ba80cbdd4af6a88e009e04a2aa932.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/saigo_newlib/",
+            "native_client/toolchain/linux_x86/saigo_newlib_raw/"
+        ]
+    },
+    {
+        "name": "libgcc_eh_saigo_arm.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/libgcc_eh_saigo_arm_f8e3ef2e74d0267a893a081854b2f9251600c5ec.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/saigo_newlib/",
+            "native_client/toolchain/linux_x86/saigo_newlib_raw/"
+        ]
+    },
+    {
+        "name": "libgcc_eh_saigo_x86_32.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/libgcc_eh_saigo_x86_32_6aa528d6be4ded45ed725cc0045a9d1a86e9c63b.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/saigo_newlib/",
+            "native_client/toolchain/linux_x86/saigo_newlib_raw/"
+        ]
+    },
+    {
+        "name": "libgcc_eh_saigo_x86_64.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/libgcc_eh_saigo_x86_64_073a79dc11c7b53c6878da1ff06270e60cbbef5c.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/saigo_newlib/",
+            "native_client/toolchain/linux_x86/saigo_newlib_raw/"
+        ]
+    },
+    {
+        "name": "libs_support_saigo_arm.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/libs_support_saigo_arm_f3641717b826aa35c32bf1aef612f2e292e3d174.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/saigo_newlib/",
+            "native_client/toolchain/linux_x86/saigo_newlib_raw/"
+        ]
+    },
+    {
+        "name": "libs_support_saigo_i686.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/libs_support_saigo_i686_d41f88e736cae126a34f26958f32b18c2a7da5fb.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/saigo_newlib/",
+            "native_client/toolchain/linux_x86/saigo_newlib_raw/"
+        ]
+    },
+    {
+        "name": "libs_support_saigo_x86_64.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/libs_support_saigo_x86_64_0ae198ce7aaf46a244685b603b92b2c80931928d.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/saigo_newlib/",
+            "native_client/toolchain/linux_x86/saigo_newlib_raw/"
+        ]
+    },
+    {
+        "name": "llvm_saigo_x86_64_linux.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/llvm_saigo_x86_64_linux_2dfe03d4a9f2f21541e2d51d28be924a43223c52.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/saigo_newlib/",
+            "native_client/toolchain/linux_x86/saigo_newlib_raw/"
+        ]
+    },
+    {
+        "name": "newlib_saigo_arm.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/newlib_saigo_arm_621763e09c461a0f47daf74d44b2a38af8881dbb.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/saigo_newlib/",
+            "native_client/toolchain/linux_x86/saigo_newlib_raw/"
+        ]
+    },
+    {
+        "name": "newlib_saigo_i686.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/newlib_saigo_i686_6d0b1c9dc1b08733261e709023cf39753975158d.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/saigo_newlib/",
+            "native_client/toolchain/linux_x86/saigo_newlib_raw/"
+        ]
+    },
+    {
+        "name": "newlib_saigo_x86_64.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/newlib_saigo_x86_64_7ae2f6c8bc8117cd7e2445c34a2d9c09ea34b7d9.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/saigo_newlib/",
+            "native_client/toolchain/linux_x86/saigo_newlib_raw/"
+        ]
+    },
+    {
+        "name": "remote_toolchain_inputs_saigo_x86_64_linux.tgz",
+        "format": "tgz",
+        "url": "https://storage.googleapis.com/nativeclient-once/object/remote_toolchain_inputs_saigo_x86_64_linux_a61db3120433a15494eb6a4f863d93e264fc5fc0.tgz",
+        "install_path": [
+            "native_client/toolchain/linux_x86/saigo_newlib/",
+            "native_client/toolchain/linux_x86/saigo_newlib_raw/"
+        ]
+    }
+]
